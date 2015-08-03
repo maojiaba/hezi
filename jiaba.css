@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width:100%;
+	/*height: 100%;*/
+	background-image: url(beijing.jpg) ;
+	color: #fff;
+	position: relative;
+}
+.head{
+	display: inline-block;
+	text-indent: center;
+}
+.head .one{
+	position: absolute;
+	top:10px;
+	left:650px;
+	color:#895858;
+}.head .two{
+	position: absolute;
+	top:10px;
+	left:700px;
+	color:#517371;
+}
+.link-one {
+	position:absolute;
+	top:180px;
+	left:310px;
+}
+.link-two {
+	position: absolute;
+	top:180px;
+	right:300px;
+}
+.link-three {
+	position: absolute;
+	top: 540px;
+	left:310px;
+}
+.link-four {
+	position: absolute;
+	top: 540px;
+	right:300px;
+}
+.link a{
+	text-decoration: none;
+	color: black;
+	border:1px solid #fff;
+	letter-spacing: 2px;
+	padding: 10px;
+	position: relative;
+	font-weight: bolder;	
+}
+.button {
+     opacity: 1;
+     transition:all 0.5s;
+     position: relative;
+}
+.button:hover {
+	 opacity: 0.5;
+	 color: #fff;
+	 border-radius: 50%;
+}
+.button .line{
+	 	display: block;
+	 	position: absolute;	 
+	 	background: none;
+	 	transition:0.5s ease;	
+}
+.button:hover .line{
+	background: #fff;
+}
+.button .line-one-top{
+	 	height: 1px;
+	 	width: 0px;
+	 	left:-120px;
+	 	top:-1px;
+}
+.button:hover .line-one-top{
+        width: 82px;
+        height: 1px;
+        left:0px;
+        top: -1px; 
+}
+.button .line-one-bottom{
+	 	height: 1px;
+	 	width: 0;
+	 	left:290px;
+	 	top:40px;
+}
+.button:hover .line-one-bottom{
+	 	height: 1px;
+	 	width:82px;
+	 	left:0px;
+	 	top:36px;
+}
+.button .line-one-left{
+	 	width: 1px;
+	 	height: 0;
+        left:0;
+        top:160px;
+}
+.button:hover .line-one-left{
+	 	width: 1px;
+	 	height:36px;
+	 	top:0;
+	 	left:-1px;
+}
+.button .line-one-right{
+	 	left:82px;
+	 	top:-120px;
+	 	width: 1px;
+	 	height: 0;
+}
+.button:hover .line-one-right{
+	 	width: 1px;
+	 	height: 36px;
+	 	top:0px;
+	 	left:82px;
+
+}.button .line-two-top{
+	 	height: 1px;
+	 	width: 0px;
+	 	left:-120px;
+	 	top:-1px;
+}
+.button:hover .line-two-top{
+        width: 82px;
+        height: 1px;
+        left:0px;
+        top: -1px; 
+}
+.button .line-two-bottom{
+	 	height: 1px;
+	 	width: 0;
+	 	left:290px;
+	 	top:40px;
+}
+.button:hover .line-two-bottom{
+	 	height: 1px;
+	 	width:82px;
+	 	left:0px;
+	 	top:36px;
+}
+.button .line-two-left{
+	 	width: 1px;
+	 	height: 0;
+        left:0;
+        top:160px;
+}
+.button:hover .line-two-left{
+	 	width: 1px;
+	 	height:36px;
+	 	top:0;
+	 	left:-1px;
+}
+.button .line-two-right{
+	 	left:82px;
+	 	top:-120px;
+	 	width: 1px;
+	 	height: 0;
+}
+.button:hover .line-two-right{
+	 	width: 1px;
+	 	height: 36px;
+	 	top:0px;
+	 	left:82px;
+}
+.button .line-three-top{
+	 	height: 1px;
+	 	width: 0px;
+	 	left:-120px;
+	 	top:-1px;
+}
+.button:hover .line-three-top{
+        width: 82px;
+        height: 1px;
+        left:0px;
+        top: -1px; 
+}
+.button .line-three-bottom{
+	 	height: 1px;
+	 	width: 0;
+	 	left:290px;
+	 	top:40px;
+}
+.button:hover .line-three-bottom{
+	 	height: 1px;
+	 	width:82px;
+	 	left:0px;
+	 	top:36px;
+}
+.button .line-three-left{
+	 	width: 1px;
+	 	height: 0;
+        left:0;
+        top:100px;
+}
+.button:hover .line-three-left{
+	 	width: 1px;
+	 	height:36px;
+	 	top:0;
+	 	left:-1px;
+}
+.button .line-three-right{
+	 	left:82px;
+	 	top:-120px;
+	 	width: 1px;
+	 	height: 0;
+}
+.button:hover .line-three-right{
+	 	width: 1px;
+	 	height: 36px;
+	 	top:0px;
+	 	left:82px;
+}
+.button .line-four-top{
+	 	height: 1px;
+	 	width: 0px;
+	 	left:-120px;
+	 	top:-1px;
+}
+.button:hover .line-four-top{
+        width: 82px;
+        height: 1px;
+        left:0px;
+        top: -1px; 
+}
+.button .line-four-bottom{
+	 	height: 1px;
+	 	width: 0;
+	 	left:290px;
+	 	top:40px;
+}
+.button:hover .line-four-bottom{
+	 	height: 1px;
+	 	width:82px;
+	 	left:0px;
+	 	top:36px;
+}
+.button .line-four-left{
+	 	width: 1px;
+	 	height: 0;
+        left:0;
+        top:100px;
+}
+.button:hover .line-four-left{
+	 	width: 1px;
+	 	height:36px;
+	 	top:0;
+	 	left:-1px;
+}
+.button .line-four-right{
+	 	left:82px;
+	 	top:-120px;
+	 	width: 1px;
+	 	height: 0;
+}
+.button:hover .line-four-right{
+	 	width: 1px;
+	 	height: 36px;
+	 	top:0px;
+	 	left:82px;
+}
